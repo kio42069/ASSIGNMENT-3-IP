@@ -1,4 +1,4 @@
-n = int(input())
+n = int(input("Enter n: "))
 def printer(n,t):
     print("*"*t+" "*(n-t)+" "*(n-t)+"*"*t)
     printer(n,t-1) if t != 1 else print("",end = "")
