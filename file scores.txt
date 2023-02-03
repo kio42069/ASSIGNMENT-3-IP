@@ -1,0 +1,15 @@
+File1.txt
+score: 7.671755725190841
+5 most used words in decending order: to that the was he 
+5 random words from assignment submission: else. he that disappointment time 
+
+File2.txt
+score: 8.644230769230768
+5 most used words in decending order: the that her in not 
+5 random words from assignment submission: big had the not in 
+
+File3.txt
+score: 8.06766917293233
+5 most used words in decending order: the had it she been 
+5 random words from assignment submission: had not found been on 
+
