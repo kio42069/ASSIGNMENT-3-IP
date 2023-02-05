@@ -1,5 +1,15 @@
+File1.txt
+score: 7.842105263157895
+5 most used words in decending order: the i to and on 
+5 random words from assignment submission: going collar. going the let 
+
+File2.txt
+score: 8.644230769230768
+5 most used words in decending order: the her that and not 
+5 random words from assignment submission: it only wasn't the why 
+
 File3.txt
 score: 8.06766917293233
-5 most used words in decending order: the had she that it 
-5 random words from assignment submission: true they the a unless 
+5 most used words in decending order: the had to she been 
+5 random words from assignment submission: perfect enough had not burn. 
 
