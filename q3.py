@@ -42,8 +42,18 @@ for file in fileList:
     
     #FACTOR 4
     F4 = 0
-    
-    
+    count = -1
+    frequency = 0
+    for i in string:
+        if i not in ".,;:":
+            if count > 0:
+                frequency += 1
+            count = -1
+            
+        else:
+            count += 1
+        
+    F4 = frequency/len(total_words)
     
     #FACTOR 5
     F5 = 1 if len(total_words) > 750 else 0
@@ -51,7 +61,7 @@ for file in fileList:
     
     
     netscore = 4 + F1*6 + F2 - F3 - F4 - F5
-    with open("file scores.txt","a") as obj:
+    with open("file scores.txt","w") as obj:
         obj.write(file+"\n")
         obj.write(f"score: {netscore}\n")
         obj.write("5 most used words in decending order: ")

@@ -1,13 +1,9 @@
 class Course:
-    def __init__(self, cname, credits, assessments, policy):
+    def __init__(self, cname, credits):
         self.cname = cname
         self.credits = credits
-        self.assessments = assessments
-        self.policy = policy
         print("Course created")
-    def cutoff(self, marklist):
         
-        pass
 class Student:
     def __init__(self, rollno, labs, midsem, assignments, endsem, labs_total, midsem_total, assignments_total, endsem_total, assessments):
         self.rollno = rollno
