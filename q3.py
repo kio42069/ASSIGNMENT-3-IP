@@ -61,7 +61,7 @@ for file in fileList:
     
     
     netscore = 4 + F1*6 + F2 - F3 - F4 - F5
-    with open("file scores.txt","w") as obj:
+    with open("file scores.txt","a") as obj:
         obj.write(file+"\n")
         obj.write(f"score: {netscore}\n")
         obj.write("5 most used words in decending order: ")
@@ -71,4 +71,5 @@ for file in fileList:
         obj.write("5 random words from assignment submission: ")
         for i in range(5):
             obj.write(choice(total_words)+" ")
+        obj.write(f"\nF1 : {F1}\tF2 : {F2}\tF3: {F3}\tF4 : {F4}\tF5 : {F5}\n")
         obj.write("\n\n")

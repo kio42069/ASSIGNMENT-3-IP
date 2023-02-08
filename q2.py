@@ -1,5 +1,5 @@
 with open("records.txt", "r") as file:
     records = file.readlines()
-string = ""
+processed_records = []
 for i in records:
-    string = string + i
+    processed_records.append(i.split())

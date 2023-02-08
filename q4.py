@@ -1,9 +1,11 @@
+#during new policy creation, if there are two same intervals, we consider only the first interval
+
 class Course:
     def __init__(self, cname, credits):
         self.cname = cname
         self.credits = credits
         print("Course created")
-        
+
 class Student:
     def __init__(self, rollno, labs, midsem, assignments, endsem, labs_total, midsem_total, assignments_total, endsem_total, assessments):
         self.rollno = rollno
@@ -44,8 +46,8 @@ while True:
                 record = str(student.rollno)+"\t\t"+str(student.marks)+"\n"
                 file.write(record)
         break
-    
-    
+
+
 cutoffs_final = policy.copy()
 for i in range(len(policy)):
     try:
