@@ -1,0 +1,25 @@
+Advantages of OOP:
+    Faster grading operation
+    Better visually and more readability
+Advantages of dictionary:
+    Lightning fast search operation
+    Less code
+
+Disadvantages of OOP:
+    Slower Search operation
+    More lines of code to be written
+Disadvantages of dictionary:
+    Slower grading operation
+    less visually appealing and less readability
+    
+Performance comparison for grading operation
+1. N: 10000
+2. Time by OO: 1.7493109703063965
+3. Time by dictionary: 2.734478235244751
+4. X is faster; fraction of time x took is: 0.6397238594769153
+
+Performance comparison for search operation
+1. N: 10000
+2. Time by OO: 0.0000000000000065
+3. Time by dictionary: 0.000000000000001
+4. X is faster; fraction of time x took is: 0.15384615384615385
